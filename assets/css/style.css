@@ -1,7 +1,25 @@
-body{
+body {
+    margin: 0;
     background-color: #d7d7d7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-nav{
+nav {
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.login_btn {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
 }
