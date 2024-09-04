@@ -47,7 +47,9 @@ nav {
 }
 
 .first_half,
-.second_half {
+.second_half,
+.main_card,
+.sub_card {
     background-color: #fff;
     border-radius: 20px;
     padding: 2px 20px;
@@ -63,4 +65,30 @@ nav {
     .blog {
         display: none;
     }
+}
+
+.card_section {
+    padding: 10px 100px;
+    display: grid;
+    grid-template-columns: 0.80fr 0.25fr;
+    column-gap: 20px;
+}
+
+.first_card {
+    display: flex;
+}
+
+.first_card_image {
+    width: 30%;
+}
+
+.first_card_image img {
+    width: 100%;
+    padding: 13px 3px 9px 0px;
+    border-radius: 12%;
+}
+
+
+.first_card_text {
+    width: 70%;
 }
