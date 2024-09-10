@@ -122,3 +122,18 @@ nav {
     text-decoration: none;
     color: black;
 }
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    border-bottom: 0.5px dashed rgb(212, 212, 212);
+}
+
+.card1 h4,
+.card2 h4,
+.card3 h4,
+.card4 h4,
+.card5 h4 {
+    margin-bottom: -10px;
+}
