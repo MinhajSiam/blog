@@ -48,7 +48,8 @@ nav {
 
 .first_half,
 .second_half,
-.main_card,
+.first_card,
+.second_card,
 .sub_card {
     background-color: #fff;
     border-radius: 20px;
@@ -74,8 +75,10 @@ nav {
     column-gap: 20px;
 }
 
-.first_card {
+.first_card,
+.second_card {
     display: flex;
+    margin-bottom: 10px;
 }
 
 /* .first_card_image {
