@@ -118,12 +118,13 @@ nav {
     margin-bottom: -10px;
 }
 
-[href='#'] {
+[href='#'],
+[href='##'] {
     text-decoration: none;
     color: black;
 }
 
-[href='#']:hover {
+[href='##']:hover {
     text-decoration: underline;
 }
 
